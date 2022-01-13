@@ -1,0 +1,28 @@
+.jamoa{
+    margin-top: 40px;
+}
+.jamoa .col{
+    margin-top: 10px;
+}
+.jamoa_azosi{
+    display: flex;
+    overflow: hidden;
+    position:relative;
+}
+.jamoa_azosi:hover span{
+    transform: translateY(-100%);
+}
+.jamoa_azosi img{
+    width: 100%; 
+}
+.jamoa_azosi span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ff562275;
+    left: 0;
+    top: 100%;    
+    transition: transform 0.8s;
+    color: #fff;
+    text-align: center;
+}
